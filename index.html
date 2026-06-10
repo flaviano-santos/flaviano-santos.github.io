@@ -1,36 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Flaviano Santos</title>
 
 <style>
+
 body{
     font-family: Arial, sans-serif;
     max-width:1000px;
     margin:auto;
     padding:40px;
     line-height:1.7;
+    color:#222;
 }
 
 h1{
     color:#1f4e79;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#1f4e79;
+    margin-bottom:20px;
 }
 
 .profile{
     display:flex;
-    gap:30px;
+    gap:40px;
     align-items:center;
+    margin-bottom:60px;
 }
 
 .profile img{
-    width:180px;
+    width:200px;
     border-radius:50%;
 }
 
 .section{
-    margin-top:50px;
+    margin-top:60px;
 }
+
+a{
+    color:#1f4e79;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* PRESENTATION CARD */
+
+.presentation-card{
+    margin-top:30px;
+    border:1px solid #ddd;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    background:white;
+}
+
+.presentation-card img{
+    width:100%;
+    display:block;
+}
+
+.presentation-content{
+    padding:25px;
+}
+
+.presentation-title{
+    font-size:28px;
+    font-weight:bold;
+    color:#1f4e79;
+    margin-bottom:10px;
+}
+
+.presentation-meta{
+    color:#666;
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.presentation-description{
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.presentation-tag{
+    display:inline-block;
+    background:#eef5fb;
+    color:#1f4e79;
+    padding:6px 12px;
+    border-radius:20px;
+    margin-right:8px;
+    margin-bottom:8px;
+    font-size:14px;
+}
+
+.presentation-button{
+    display:inline-block;
+    background:#1f4e79;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.presentation-button:hover{
+    background:#16395a;
+    text-decoration:none;
+}
+
 </style>
 
 </head>
@@ -39,7 +125,7 @@ h1{
 
 <div class="profile">
 
-<img src="https://avatars.githubusercontent.com/flaviano-santos">
+<img src="https://avatars.githubusercontent.com/flaviano-santos" alt="Flaviano Santos">
 
 <div>
 
@@ -50,7 +136,7 @@ Psychologist • Neuropsychologist • Cognitive Neuroscientist
 </p>
 
 <p>
-Researching virtual reality, social cognition, digital mental health and healthcare innovation.
+Researching Virtual Reality, Social Cognition, Digital Health and Healthcare Innovation.
 </p>
 
 </div>
@@ -85,76 +171,65 @@ Researching virtual reality, social cognition, digital mental health and healthc
 
 <div class="section">
 
+<h2>Presentations & Engagement</h2>
+
+<div class="presentation-card">
+
+<img src="images/chi-research-day-2026.jpg"
+alt="CHI Research and Innovation Day 2026">
+
+<div class="presentation-content">
+
+<div class="presentation-title">
+CHI Research & Innovation Day 2026
+</div>
+
+<div class="presentation-meta">
+Children's Health Ireland • Dublin, Ireland • Research Presentation
+</div>
+
+<div class="presentation-description">
+
+<strong>
+Developing Immersive Virtual Reality Experiences to Support Children Across the Hospital Journey and Clinical Procedures
+</strong>
+
+<p>
+Presented ongoing work developing immersive Virtual Reality experiences designed to prepare children for hospital visits and clinical procedures such as MRI and cannulation.
+</p>
+
+<p>
+The project combines immersive familiarisation experiences with interactive coping supports, following an implementation-informed and user-centred design framework involving children, caregivers and clinical teams.
+</p>
+
+</div>
+
+<div>
+
+<span class="presentation-tag">Virtual Reality</span>
+<span class="presentation-tag">Paediatric Healthcare</span>
+<span class="presentation-tag">Digital Health</span>
+<span class="presentation-tag">Implementation Science</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
 <h2>Links</h2>
 
 <p>
-<a href="https://scholar.google.com">Google Scholar</a><br>
-<a href="https://linkedin.com">LinkedIn</a><br>
-<a href="https://github.com/flaviano-santos">GitHub</a>
+<a href="https://scholar.google.com" target="_blank">Google Scholar</a><br>
+<a href="https://github.com/flaviano-santos" target="_blank">GitHub</a><br>
+<a href="https://linkedin.com" target="_blank">LinkedIn</a>
 </p>
 
 </div>
 
 </body>
 </html>
-
-.presentation-card{
-    margin-top:40px;
-    border:1px solid #ddd;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 4px 12px rgba(0,0,0,0.08);
-    background:white;
-}
-
-.presentation-card img{
-    width:100%;
-    display:block;
-}
-
-.presentation-content{
-    padding:25px;
-}
-
-.presentation-title{
-    font-size:28px;
-    font-weight:bold;
-    color:#1f4e79;
-    margin-bottom:10px;
-}
-
-.presentation-meta{
-    color:#666;
-    font-size:15px;
-    margin-bottom:20px;
-}
-
-.presentation-description{
-    line-height:1.7;
-    margin-bottom:20px;
-}
-
-.presentation-tag{
-    display:inline-block;
-    background:#eef5fb;
-    color:#1f4e79;
-    padding:6px 12px;
-    border-radius:20px;
-    margin-right:8px;
-    margin-bottom:8px;
-    font-size:14px;
-}
-
-.presentation-button{
-    display:inline-block;
-    background:#1f4e79;
-    color:white;
-    text-decoration:none;
-    padding:10px 18px;
-    border-radius:8px;
-    margin-top:10px;
-}
-
-.presentation-button:hover{
-    background:#16395a;
-}
